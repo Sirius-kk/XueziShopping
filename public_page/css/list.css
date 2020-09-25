@@ -1,0 +1,79 @@
+@charset "UTF-8";
+.container {
+  /* 分页条样式 */
+  /* 右侧小广告 */ }
+  .container div.border {
+    border-radius: 5px; }
+  .container .title {
+    background-image: linear-gradient(to right, #e52 0%, #fe2 100%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; }
+  .container .sub_title {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; }
+  .container .btn_l, .container .btn_r {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    box-sizing: border-box;
+    border: 0; }
+    .container .btn_l:hover, .container .btn_r:hover {
+      background-color: #f00; }
+  .container .btn_l div, .container .btn_r div {
+    box-sizing: border-box;
+    position: absolute;
+    top: 10px;
+    left: 3px;
+    width: 18px;
+    height: 1px;
+    border: 2px solid #fff;
+    border-radius: 30%; }
+  .container .btn_r span {
+    box-sizing: border-box;
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    width: 1px;
+    height: 18px;
+    border: 2px solid #fff;
+    border-radius: 30%; }
+  .container .form-control, .container a.btn {
+    box-shadow: 0 0 0 0 #000;
+    text-align: center; }
+  .container .border-dark {
+    transition: box-shadow .5s; }
+  .container .border-dark:hover {
+    box-shadow: 0px 0px 5px 5px #999; }
+  .container .pagination .page-item, .container .pagination .page-link {
+    border-radius: 5px; }
+  .container .pagination .page-item.active {
+    color: #fff;
+    background-color: #0aa1ed; }
+  .container .pagination .page-item + .page-item {
+    margin-left: 15px; }
+  .container .pagination .page-link {
+    background-color: transparent;
+    box-shadow: 0 0 0 0 #000; }
+    .container .pagination .page-link:hover {
+      border: 1px solid #0062CC; }
+  .container ul.list-group li:first-child {
+    background-color: #ddd; }
+  .container ul.list-group .list-group-item + .list-group-item {
+    padding: 0;
+    border-top: 1px dashed #000000;
+    border-bottom: 1px dashed #000000; }
+    .container ul.list-group .list-group-item + .list-group-item p, .container ul.list-group .list-group-item + .list-group-item span {
+      font-size: 12px; }
+    .container ul.list-group .list-group-item + .list-group-item .btn {
+      width: 20px !important;
+      height: 20px; }
+    .container ul.list-group .list-group-item + .list-group-item a {
+      padding: 0;
+      line-height: 1; }
+  .container ul.list-group li.border-0 ul {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; }
+  .container ul.list-group li.border-0 ul > li:last-child {
+    border-bottom-right-radius: 5px; }
+
+/*# sourceMappingURL=list.css.map */

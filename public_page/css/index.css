@@ -1,0 +1,51 @@
+.small_fontSie {
+  font-size: .8rem; }
+
+.top_height {
+  height: 377px; }
+
+.bottom_height {
+  height: 233px; }
+
+.bg_e8 {
+  background-color: #e8e8e8; }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container .floor .floor_one div .my_img1 {
+    margin-right: 30px;
+    margin-top: -235px; } }
+@media (min-width: 576px) and (max-width: 768px) {
+  .container .floor .floor_one div .my_img1 {
+    margin-right: 20px;
+    margin-top: -265px; } }
+.container .carousel .carousel-indicators > li {
+  width: .8rem;
+  height: .8rem;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0px .5rem; }
+  .container .carousel .carousel-indicators > li:hover {
+    background-color: #002752; }
+.container .carousel .carousel-indicators .active {
+  background-color: #007BFF; }
+.container .floor .floor_one p {
+  font-size: .8rem; }
+.container .floor .floor_one .btn {
+  background-image: linear-gradient(to top, #59abb3, #2d6682);
+  box-shadow: 0 0 0 0 #000;
+  border: 0; }
+.container .floor .floor_one .my_img:hover {
+  transform: scale(1.1); }
+.container .floor .floor_one .my_img {
+  transition: transform .5s; }
+.container .floor .floor_one .my_img1 {
+  margin-right: 30px;
+  margin-top: -195px; }
+.container .floor .floor_one .my_img2 {
+  margin-right: 40px;
+  margin-top: -300px; }
+.container .floor .floor_one .my_img3 {
+  margin-right: 25px;
+  margin-top: -190px; }
+
+/*# sourceMappingURL=index.css.map */

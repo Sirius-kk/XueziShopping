@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.footer_top .col-3 a {
+  color: #999;
+  font-size: 14px; }
+
+.footer .footer_c ul {
+  list-style: none;
+  text-align: center; }
+  .footer .footer_c ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #333; }
+    .footer .footer_c ul li a:hover {
+      text-decoration: underline; }
+  .footer .footer_c ul li:first-child a {
+    margin-bottom: 3px;
+    font-weight: bolder;
+    font-size: 15px; }
+.footer .footer_r div:first-child a:first-child {
+  text-align: center; }
+
+/*# sourceMappingURL=footer.css.map */
